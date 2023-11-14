@@ -1,18 +1,18 @@
-.bookmark-icon {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-  }
-  .bookmark-container {
+.fib-input-container {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+}
+
+.bookmark-icon {
+  display: flex;
   align-items: center;
   cursor: pointer;
 }
-  .bookmarked {
-    color: #ffcc00; 
-  }
-  
-  .flag-text {
-    margin-left: 4px; 
-  }
+
+.bookmarked {
+  color: #ffcc00; 
+}
+
+.flag-text {
+  margin-left: 4px; 
+}
