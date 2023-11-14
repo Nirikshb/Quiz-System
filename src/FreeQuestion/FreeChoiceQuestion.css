@@ -1,0 +1,15 @@
+.check {
+    border-radius: 8px;
+    width: 6vw;
+    height: 4vh;
+    color: white;
+   }
+  
+  .blue-button, .check {
+    background-color: rgba(0, 76, 147, 0.831); 
+      border-radius: 8px;
+    }
+  
+    .free-choice-container {
+      text-align: left  ;
+    }

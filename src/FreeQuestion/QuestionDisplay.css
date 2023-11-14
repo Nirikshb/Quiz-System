@@ -1,0 +1,21 @@
+
+.fill-in-blank-input {
+    border: none;
+    padding: 0;
+    border-bottom: 1px solid black;
+  }
+  
+  .fill-in-blank-input:focus {
+    outline: none;
+    border-bottom: 1px solid black;
+  }
+
+  .question-display {
+    position: relative;
+  }
+  
+  .check {
+    position: absolute;
+    right: 6%; 
+    bottom: -80%; 
+  }
