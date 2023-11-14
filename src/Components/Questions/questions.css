@@ -1,5 +1,6 @@
 .fib-input-container {
   display: flex;
+  justify-content: space-between; /* Aligns items to the right */
   align-items: center;
 }
 
