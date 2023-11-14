@@ -9,9 +9,8 @@ const MultipleChoice = ({ currentIndex,
     selectedOptions, 
     handleAnswerChange, 
     toggleBookmark, 
-    bookmarkedQuestions }) => 
-    
-    {
+    bookmarkedQuestions }) => {
+
   console.log('currentIndex:', currentIndex);
   console.log('options:', options);
   console.log('selectedOptions:', selectedOptions);
@@ -22,12 +21,9 @@ const MultipleChoice = ({ currentIndex,
     <div>
       <p className="question-text">
         {question}
-        <span
-          onClick={() => toggleBookmark(currentIndex)}
-          className={`bookmark-icon ${isBookmarked ? 'bookmarked' : ''}`}
-        >
+        <span className="bookmark-container" onClick={() => toggleBookmark(currentIndex)}>
           <FaBookmark />
-          <span className="flag-text">Flag for later</span>
+          <span className={`flag-text ${isBookmarked ? 'bookmarked' : ''}`}>Flag for later</span>
         </span>
       </p>
 
