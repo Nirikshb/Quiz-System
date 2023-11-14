@@ -3,7 +3,12 @@
     align-items: center;
     cursor: pointer;
   }
-  
+  .bookmark-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
   .bookmarked {
     color: #ffcc00; 
   }
